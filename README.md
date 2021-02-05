@@ -8,3 +8,5 @@ A basic Flask starter project to get started with Docker Compose and Shipyard.
 - uWSGI entrypoint
 - Celery (with example heartbeat task configured)
 - Flask-SQLAlchemy
+
+(TEST UPDATE)
