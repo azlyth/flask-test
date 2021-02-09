@@ -6,7 +6,7 @@ services:
     labels:
       shipyard.route: '/'
       shipyard.liveness.http.path: '/health'
-      shipyard.liveness.http.headers: '{"Host": "probe-test"}'
+      shipyard.liveness.http.headers: '{"Host": "probe-test"'
       shipyard.liveness.initial_delay: '30'
       shipyard.liveness.period: '30'
       shipyard.readiness.http.path: '/health'
